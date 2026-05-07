@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Chapters | Fragments of Grace</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+background:
+linear-gradient(
+180deg,
+#0f0f0f,
+#18120d
+);
+color:#f5efe5;
+font-family:'Inter',sans-serif;
+overflow-x:hidden;
+}
+
+/* HERO */
+
+.hero{
+padding:7rem 2rem 5rem;
+text-align:center;
+}
+
+.small-title{
+letter-spacing:4px;
+text-transform:uppercase;
+font-size:.8rem;
+color:#c9a66b;
+margin-bottom:1.5rem;
+}
+
+.hero h1{
+font-family:'Cormorant Garamond',serif;
+font-size:clamp(3.5rem,8vw,6rem);
+font-weight:600;
+line-height:1;
+margin-bottom:2rem;
+color:#f6dca8;
+text-shadow:0 0 25px rgba(255,215,140,.12);
+}
+
+.hero p{
+max-width:760px;
+margin:auto;
+font-size:1.08rem;
+line-height:1.9;
+color:#e3d9ca;
+}
+
+/* CHAPTER GRID */
+
+.section{
+padding:0 2rem 7rem;
+}
+
+.container{
+max-width:1200px;
+margin:auto;
+}
+
+.chapter-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:2rem;
+margin-top:4rem;
+}
+
+.chapter-card{
+background:rgba(255,255,255,.03);
+border:1px solid rgba(255,255,255,.06);
+border-radius:28px;
+padding:2.5rem;
+transition:.35s ease;
+backdrop-filter:blur(8px);
+position:relative;
+overflow:hidden;
+}
+
+.chapter-card:hover{
+transform:translateY(-6px);
+border-color:rgba(244,211,154,.3);
+box-shadow:0 0 35px rgba(244,211,154,.08);
+}
+
+.chapter-number{
+font-size:.82rem;
+letter-spacing:3px;
+text-transform:uppercase;
+color:#c9a66b;
+margin-bottom:1.2rem;
+}
+
+.chapter-card h2{
+font-family:'Cormorant Garamond',serif;
+font-size:2.2rem;
+font-weight:600;
+line-height:1.2;
+margin-bottom:1.3rem;
+color:#f5ddb0;
+}
+
+.chapter-card p{
+font-size:1rem;
+line-height:1.9;
+color:#ddd2c3;
+margin-bottom:2rem;
+}
+
+.chapter-link{
+display:inline-block;
+text-decoration:none;
+color:#f0c97b;
+font-weight:600;
+transition:.3s ease;
+}
+
+.chapter-link:hover{
+transform:translateX(4px);
+}
+
+/* BOTTOM */
+
+.bottom{
+padding:2rem 2rem 7rem;
+text-align:center;
+}
+
+.bottom-quote{
+max-width:900px;
+margin:auto;
+font-family:'Cormorant Garamond',serif;
+font-size:clamp(2rem,5vw,4rem);
+font-style:italic;
+line-height:1.3;
+color:#f4d9a6;
+}
+
+.home-button{
+display:inline-block;
+margin-top:3rem;
+padding:1rem 2rem;
+border-radius:50px;
+text-decoration:none;
+font-weight:600;
+background:#e0b96d;
+color:#111;
+transition:.35s ease;
+}
+
+.home-button:hover{
+background:#f3cf8b;
+transform:translateY(-3px);
+}
+
+/* FOOTER */
+
+footer{
+padding:3rem 2rem;
+text-align:center;
+font-size:.95rem;
+color:#998d7c;
+border-top:1px solid rgba(255,255,255,.06);
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+.hero{
+padding:5rem 1.5rem 4rem;
+}
+
+.section{
+padding:0 1.5rem 5rem;
+}
+
+.chapter-card{
+padding:2rem;
+border-radius:24px;
+}
+
+.hero p{
+font-size:1rem;
+}
+
+.chapter-card h2{
+font-size:1.9rem;
+}
+
+.bottom{
+padding:1rem 1.5rem 5rem;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+
+<section class="hero">
+
+<p class="small-title">
+Fragments of Grace
+</p>
+
+<h1>Chapters</h1>
+
+<p>
+A journey through spiritual heaviness, surrender, healing, restoration, and the unshakable authority found in the name of Jesus.
+</p>
+
+</section>
+
+<!-- CHAPTERS -->
+
+<section class="section">
+
+<div class="container">
+
+<div class="chapter-grid">
+
+<!-- CHAPTER 1 -->
+
+<div class="chapter-card">
+
+<p class="chapter-number">
+Chapter One
+</p>
+
+<h2>
+The Room Where Everything Felt Heavy
+</h2>
+
+<p>
+Three siblings begin confronting the strange heaviness lingering inside their home as hidden spiritual battles slowly rise into the light.
+</p>
+
+<a href="chapter1.html" class="chapter-link">
+Read Chapter →
+</a>
+
+</div>
+
+<!-- CHAPTER 2 -->
+
+<div class="chapter-card">
+
+<p class="chapter-number">
+Chapter Two
+</p>
+
+<h2>
+Uninvited Conversations
+</h2>
+
+<p>
+Whispers, fear, and unseen pressure intensify while the siblings begin exposing painful truths they can no longer ignore.
+</p>
+
+<a href="chapter2.html" class="chapter-link">
+Read Chapter →
+</a>
+
+</div>
+
+<!-- CHAPTER 3 -->
+
+<div class="chapter-card">
+
+<p class="chapter-number">
+Chapter Three
+</p>
+
+<h2>
+The Breaking Point
+</h2>
+
+<p>
+Ashley reaches emotional collapse as painful memories and spiritual heaviness collide within the quiet walls of her bedroom.
+</p>
+
+<a href="chapter3.html" class="chapter-link">
+Read Chapter →
+</a>
+
+</div>
+
+<!-- CHAPTER 4 -->
+
+<div class="chapter-card">
+
+<p class="chapter-number">
+Chapter Four
+</p>
+
+<h2>
+Cassandra’s Turning Point
+</h2>
+
+<p>
+Cassandra confronts addiction, fear, shame, and years of hidden pain while surrendering everything before Jesus.
+</p>
+
+<a href="chapter4.html" class="chapter-link">
+Read Chapter →
+</a>
+
+</div>
+
+<!-- CHAPTER 5 -->
+
+<div class="chapter-card">
+
+<p class="chapter-number">
+Chapter Five
+</p>
+
+<h2>
+The Night of the Breaking
+</h2>
+
+<p>
+The siblings gather together for a sacred night of surrender, prayer, confrontation, release, and spiritual restoration.
+</p>
+
+<a href="chapter5.html" class="chapter-link">
+Read Chapter →
+</a>
+
+</div>
+
+<!-- CHAPTER 6 -->
+
+<div class="chapter-card">
+
+<p class="chapter-number">
+Chapter Six
+</p>
+
+<h2>
+Full Circle
+</h2>
+
+<p>
+Peace begins replacing fear as the siblings step into healing, freedom, restored identity, and renewed hope.
+</p>
+
+<a href="chapter6.html" class="chapter-link">
+Read Chapter →
+</a>
+
+</div>
+
+<!-- CHAPTER 7 -->
+
+<div class="chapter-card">
+
+<p class="chapter-number">
+Chapter Seven
+</p>
+
+<h2>
+The Memorial of Their Breaking
+</h2>
+
+<p>
+The siblings reflect on surrender, healing, testimony, and the eternal beauty Jesus created from every broken fragment.
+</p>
+
+<a href="chapter7.html" class="chapter-link">
+Read Chapter →
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- BOTTOM -->
+
+<section class="bottom">
+
+<p class="bottom-quote">
+“What wounded them no longer defined them.”
+</p>
+
+<a href="index.html" class="home-button">
+Return Home
+</a>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+Fragments of Grace © Bradley Hobbs
+
+</footer>
+
+</body>
+</html>
