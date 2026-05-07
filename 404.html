@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Page Not Found | Fragments of Grace</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+min-height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+padding:2rem;
+background:
+linear-gradient(
+180deg,
+#0f0f0f,
+#18120d
+);
+color:#f5efe5;
+font-family:'Inter',sans-serif;
+overflow-x:hidden;
+text-align:center;
+}
+
+/* CARD */
+
+.card{
+max-width:760px;
+width:100%;
+background:rgba(255,255,255,.03);
+border:1px solid rgba(255,255,255,.06);
+padding:5rem 3rem;
+border-radius:32px;
+backdrop-filter:blur(10px);
+}
+
+.small-title{
+letter-spacing:4px;
+text-transform:uppercase;
+font-size:.8rem;
+color:#c9a66b;
+margin-bottom:1.5rem;
+}
+
+.error-code{
+font-family:'Cormorant Garamond',serif;
+font-size:clamp(5rem,14vw,9rem);
+font-weight:600;
+line-height:1;
+color:#f6dca8;
+text-shadow:0 0 25px rgba(255,215,140,.12);
+margin-bottom:1rem;
+}
+
+h1{
+font-family:'Cormorant Garamond',serif;
+font-size:clamp(2.5rem,6vw,4.5rem);
+font-weight:600;
+line-height:1.1;
+margin-bottom:2rem;
+color:#f5ddb0;
+}
+
+.message{
+max-width:620px;
+margin:auto;
+font-size:1.05rem;
+line-height:1.9;
+color:#ddd2c3;
+}
+
+.highlight{
+color:#f0c97b;
+}
+
+/* BUTTONS */
+
+.buttons{
+margin-top:4rem;
+display:flex;
+justify-content:center;
+gap:1rem;
+flex-wrap:wrap;
+}
+
+.button{
+display:inline-block;
+padding:1rem 2rem;
+border-radius:50px;
+text-decoration:none;
+font-weight:600;
+transition:.35s ease;
+}
+
+.primary{
+background:#e0b96d;
+color:#111;
+}
+
+.primary:hover{
+background:#f3cf8b;
+transform:translateY(-3px);
+}
+
+.secondary{
+background:rgba(255,255,255,.05);
+border:1px solid rgba(255,255,255,.12);
+color:#f5efe5;
+}
+
+.secondary:hover{
+background:rgba(255,255,255,.12);
+transform:translateY(-3px);
+}
+
+/* FOOTER */
+
+.site-footer{
+margin-top:4rem;
+padding-top:2rem;
+border-top:1px solid rgba(255,255,255,.06);
+}
+
+.footer-text{
+font-size:.92rem;
+color:#9c907f;
+line-height:1.8;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+.card{
+padding:4rem 2rem;
+border-radius:26px;
+}
+
+.message{
+font-size:1rem;
+}
+
+h1{
+font-size:3rem;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+<p class="small-title">
+Fragments of Grace
+</p>
+
+<p class="error-code">
+404
+</p>
+
+<h1>
+Page Not Found
+</h1>
+
+<p class="message">
+The page you are searching for could not be found. 
+Perhaps the path changed, the link was broken, or the page no longer exists.
+<br><br>
+Even here, grace still guides the way forward.
+</p>
+
+<div class="buttons">
+
+<a href="index.html" class="button primary">
+Return Home
+</a>
+
+<a href="chapters.html" class="button secondary">
+Browse Chapters
+</a>
+
+</div>
+
+<div class="site-footer">
+
+<p class="footer-text">
+Fragments of Grace © Bradley Hobbs
+<br>
+A story of healing, surrender, restoration, and the unshakable authority found in the name of <span class="highlight">Jesus</span>.
+</p>
+
+</div>
+
+</div>
+
+</body>
+</html>
